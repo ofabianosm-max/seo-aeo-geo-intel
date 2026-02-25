@@ -1,0 +1,14 @@
+# seo-aeo-geo-intel — Dependências Python
+# Instalar com: pip install -r requirements.txt
+
+# APIs e HTTP
+requests>=2.31.0
+tavily-python>=0.3.0
+
+# Google APIs
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-api-python-client>=2.100.0
+
+# Utilitários
+python-dotenv>=1.0.0

@@ -1,0 +1,52 @@
+# Credenciais — NUNCA commitar
+.env
+*.json
+!.env.example
+
+# Exceto o exemplo de configuração
+!.env.example
+
+# Cache e relatórios gerados (dados locais, não versionados)
+cache/
+reports/
+*.cache
+
+# Credenciais do Google
+gsc-credentials.json
+service-account*.json
+credentials*.json
+token*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+pip-log.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Pytest / cobertura
+.pytest_cache/
+.coverage
+htmlcov/
